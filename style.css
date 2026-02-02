@@ -23,7 +23,8 @@ body {
   text-align: center;
   font-family: "Kumbh Sans", sans-serif;
   font-size: 8px;
-  padding: 2%;
+  padding: 6% 2% 6% 2%;
+  
 }
 
 .weekly_gif_div {
@@ -458,7 +459,7 @@ width: 12%;
 .footer_grid {
   display: grid;
   color: black;
-  padding: 0.3rem 0rem;
+  padding: 0.8rem 0rem;
   column-gap: 2rem;
   /* grid-template-columns: 1fr 0.1fr 1fr; */
   grid-template-columns: auto auto auto;
