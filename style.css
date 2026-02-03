@@ -5,12 +5,14 @@
 }
 
 body {
-  background-color: rgb(79, 78, 78);
-  max-width: 600px;
-  margin: 0 auto;
+  background-color: black;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .section_one {
+  max-width: 900px;
+  margin: 0 auto;
+
   background-color: rgb(0, 0, 0);
   color: white;
   font-family: "Kumbh Sans", sans-serif;
@@ -22,9 +24,8 @@ body {
 .take_two {
   text-align: center;
   font-family: "Kumbh Sans", sans-serif;
-  font-size: 8px;
+  font-size: clamp(0.5rem, 0rem + 1.3333vw, 0.75rem);
   padding: 6% 2% 6% 2%;
-  
 }
 
 .weekly_gif_div {
@@ -38,15 +39,15 @@ body {
   /* height: auto; */
 }
 
-.Alpha__logocontainer{
+.Alpha__logocontainer {
   /* border: 1px solid rebeccapurple; */
   display: flex;
-  margin: 1rem 0rem;
-  
+  margin: 0.5rem 0rem;
+
   justify-content: center;
 }
-.Alpha__logosvg{
-width: 12%;
+.Alpha__logosvg {
+  width: 15%;
 }
 
 .presents {
@@ -66,6 +67,14 @@ width: 12%;
   text-align: center;
   font-size: clamp(0.9375rem, 0.5804rem + 1.7857vw, 1.25rem);
   font-family: "Kumbh Sans", sans-serif;
+}
+
+.creative_agency--from {
+  font-weight: 300;
+}
+
+.creative_agency--from + p {
+  font-weight: 400;
 }
 
 .arrow_down {
@@ -93,6 +102,16 @@ width: 12%;
   /* font-family: "Kumbh Sans", sans-serif; */
   margin-top: 3rem;
   text-align: right;
+}
+
+.firstPara,
+.second_para,
+.eye,
+.section_one--content,
+.timeline_content,
+.timeline_content.second,
+.inline_footer {
+  font-weight: 300;
 }
 
 .eye {
@@ -185,10 +204,9 @@ width: 12%;
 }
 
 .microstory_title {
-  font-weight: bold;
+  font-weight: 500;
   position: relative;
-  margin-top: .2rem;
-  
+  margin-top: 0.2rem;
 }
 
 /* HORIZONTAL LINE */
@@ -219,7 +237,7 @@ width: 12%;
   background-image: linear-gradient(to bottom, white 50%, transparent 50%);
 
   background-size: 100% 4px;
-  height: 95rem;
+  height: 140rem;
   bottom: calc(100% - 0.6rem);
 }
 .micro_content {
@@ -243,10 +261,9 @@ width: 12%;
 }
 
 .Sensorytitle {
-  font-weight: bold;
+  font-weight: 500;
   position: relative;
-      margin-top: .2rem;
-
+  margin-top: 0.2rem;
 }
 
 .sensory_content {
@@ -334,13 +351,12 @@ width: 12%;
   position: relative;
 }
 
-
 .third_timeline_content_div {
   margin-top: 2rem;
 }
 
 .textvisual_image_header {
-  font-weight: bold;
+  font-weight: 500;
   margin-top: 2rem;
 }
 
@@ -415,10 +431,6 @@ width: 12%;
   /* border: 1px solid rebeccapurple; */
 }
 
-.footer {
-  margin-top: 5rem;
-}
-
 .footer_flex {
   display: flex;
   gap: 13px;
@@ -427,6 +439,9 @@ width: 12%;
 
 .footer {
   background-color: #d9d9d9;
+  max-width: 100%;
+  font-size: clamp(0.625rem, 0.125rem + 2.5vw, 1.0625rem);
+  margin-top: 5rem;
 }
 .insta {
   width: 1.3rem;
@@ -460,9 +475,91 @@ width: 12%;
   display: grid;
   color: black;
   padding: 0.8rem 0rem;
-  column-gap: 2rem;
+  column-gap: 1.5rem;
   /* grid-template-columns: 1fr 0.1fr 1fr; */
   grid-template-columns: auto auto auto;
   justify-content: center;
   align-items: center;
+  /* font-size: clamp(0.625rem, 0.125rem + 2.5vw, 1.0625rem); */
+}
+
+@media (min-width: 600px) {
+  .section_one {
+    font-size: clamp(1.0625rem, 0.0625rem + 2.6667vw, 1.5625rem);
+  }
+
+  .hottakes {
+    font-size: clamp(2rem, 0rem + 5.3333vw, 3rem);
+  }
+  .creative_agency {
+    font-size: clamp(1.25rem, 0rem + 3.3333vw, 1.875rem);
+  }
+
+  .the_signal {
+    font-size: clamp(5rem, 1rem + 10.6667vw, 7rem);
+  }
+
+  .secforr_heading {
+    font-size: clamp(3.3rem, -0.1rem + 9.0667vw, 5rem);
+  }
+
+  .timeline_content {
+    padding-left: clamp(3rem, 16vw - 3rem, 6rem);
+  }
+
+  .Sensorytitle::before {
+    /* content: "";
+    position: absolute; */
+    left: -2.7rem;
+  }
+
+  .Sensorytitle::after {
+    content: "";
+    position: absolute;
+    left: -2.7rem;
+  }
+
+  .microstory_title::before {
+    content: "";
+    position: absolute;
+    left: -2.7rem;
+  }
+  .microstory_title.last::after {
+    content: "";
+    position: absolute;
+    left: -2.7rem;
+  }
+
+  .textimage_container::after {
+    left: -2.7rem;
+  }
+
+  .textimage_container::before {
+    left: -2.7rem;
+  }
+
+  .third_timeline_content {
+    padding-left: 6.2rem;
+  }
+
+  .secforr_heading.two {
+    font-size: clamp(3.3rem, -0.1rem + 9.0667vw, 5rem);
+  }
+
+  .footer_heading_content {
+    font-size: clamp(3.3rem, -0.1rem + 9.0667vw, 5rem);
+  }
+
+  .inline_footer {
+    font-size: clamp(1.0625rem, 0.6875rem + 1vw, 1.25rem);
+  }
+
+  .insta {
+    width: clamp(1.3rem, -0.7rem + 5.33vw, 2.3rem);
+  }
+  .Alpha__logosvg {
+    width: 13%;
+  }
+  .footer {
+font-size: clamp(1.0625rem, 0.4375rem + 1.6667vw, 1.375rem);  }
 }
