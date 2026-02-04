@@ -275,7 +275,7 @@ body {
   content: "";
   position: absolute;
   left: -1.7rem;
-  top: 0.6rem;
+  top: 50%;
   width: 0.7rem;
 
   height: 1px;
@@ -519,7 +519,7 @@ body {
     /* content: "";
     position: absolute; */
     left: -2.7rem;
-    bottom: calc(100% - 1rem);
+    bottom: calc(100% - 0.9rem);
     background-size: 100% 5px;
   }
 
