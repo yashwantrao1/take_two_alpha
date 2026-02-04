@@ -47,6 +47,7 @@ body {
 
   justify-content: center;
 }
+
 .Alpha__logosvg {
   width: 15%;
 }
@@ -74,7 +75,7 @@ body {
   font-weight: 300;
 }
 
-.creative_agency--from + p {
+.creative_agency--from+p {
   font-weight: 400;
 }
 
@@ -124,6 +125,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
 .eye_icon {
   width: 8.7%;
 }
@@ -158,6 +160,7 @@ body {
   overflow: hidden;
   /* border: .1px solid grey; */
 }
+
 .timeline_content {
   margin-left: 3rem;
   margin-top: 2rem;
@@ -241,6 +244,7 @@ body {
   height: 140rem;
   bottom: calc(100% - 0.6rem);
 }
+
 .micro_content {
   margin-top: 1rem;
   display: block;
@@ -301,6 +305,7 @@ body {
   height: 2000px;
   bottom: calc(100% - 0.6rem);
 }
+
 .micro_content.dishes {
   /* width: 20rem; */
   width: 65%;
@@ -334,6 +339,7 @@ body {
 .listItems {
   padding-left: 1.5rem;
 }
+
 .listItems li {
   position: relative;
   padding-left: 0rem;
@@ -451,6 +457,7 @@ body {
   font-size: clamp(0.625rem, 0.125rem + 2.5vw, 1.0625rem);
   margin-top: 7rem;
 }
+
 .insta {
   width: 1.3rem;
   /* width: 11.4%; */
@@ -475,6 +482,7 @@ body {
   gap: 0.5rem;
   min-width: 0;
 }
+
 .main_footer_flex {
   display: flex;
 }
@@ -499,6 +507,7 @@ body {
   .hottakes {
     font-size: clamp(2rem, 0rem + 5.3333vw, 3rem);
   }
+
   .creative_agency {
     font-size: clamp(1.25rem, 0rem + 3.3333vw, 1.875rem);
   }
@@ -537,6 +546,7 @@ body {
     position: absolute;
     left: -2.7rem;
   }
+
   .microstory_title.last::after {
     content: "";
     position: absolute;
@@ -574,9 +584,11 @@ body {
   .insta {
     width: clamp(1.3rem, -0.7rem + 5.33vw, 2.3rem);
   }
+
   .Alpha__logosvg {
     width: 13%;
   }
+
   .footer {
     font-size: clamp(1.0625rem, 0.4375rem + 1.6667vw, 1.375rem);
   }
@@ -593,26 +605,34 @@ body {
     width: clamp(11rem, 5rem + 16vw, 15rem);
   }
 
-  
+
 }
 
 
 
 
 @media (max-width: 1024px) {
-  .badminton_div , .ticket, .microstory_div.dishes, .microstory_div.dishes.collage  {
+
+  .badminton_div,
+  .ticket,
+  .microstory_div.dishes,
+  .microstory_div.dishes.collage {
     margin-top: 3rem;
   }
-  .devider{
+
+  .devider {
     margin: 5rem auto 5rem auto;
   }
-  .footer_heading{
+
+  .footer_heading {
     margin-top: 5rem;
   }
-  .footer{
+
+  .footer {
     margin-top: 5rem;
   }
-  .third_timeline_content_div{
+
+  .third_timeline_content_div {
     margin-top: 1rem;
   }
 }
