@@ -279,7 +279,7 @@ body {
   content: "";
   position: absolute;
   left: -1.7rem;
-  top: 50%;
+  top: 40%;
   width: 0.7rem;
 
   height: 1px;
@@ -303,7 +303,7 @@ body {
   background-size: 100% 4px;
 
   height: 2000px;
-  bottom: calc(100% - 0.6rem);
+  bottom: calc(100% - 0.5rem);
 }
 
 .micro_content.dishes {
@@ -528,7 +528,7 @@ body {
     /* content: "";
     position: absolute; */
     left: -2.7rem;
-    bottom: calc(100% - 0.9rem);
+    bottom: calc(100% - 1rem);
     background-size: 100% 5px;
   }
 
@@ -541,7 +541,7 @@ body {
 
   .microstory_title::before {
     content: "";
-    top: 50%;
+    top: 40%;
 
     position: absolute;
     left: -2.7rem;
@@ -553,7 +553,7 @@ body {
     left: -2.7rem;
     background-size: 100% 5px;
 
-    bottom: calc(100% - 1rem);
+    bottom: calc(100% - .8rem);
   }
 
   .textimage_container::after {
