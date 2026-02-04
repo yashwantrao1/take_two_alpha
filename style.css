@@ -143,7 +143,7 @@ body {
 .timeline_content,
 .timeline_content.second,
 .inline_footer {
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .eye {
@@ -466,6 +466,7 @@ body {
 
 .third_timeline_content_div {
   margin-top: 2rem;
+  font-weight: 200;
 }
 
 .textvisual_image_header {
