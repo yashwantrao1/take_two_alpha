@@ -175,7 +175,7 @@ body {
 
 .devider {
   width: 11rem;
-  margin: 4rem auto 4rem auto;
+  margin: 7rem auto 7rem auto;
   height: 1px;
   border: none;
 
@@ -311,11 +311,11 @@ body {
 }
 
 .microstory_div.dishes {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .microstory_div.dishes.collage {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .fourth_sec.last {
