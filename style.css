@@ -249,7 +249,7 @@ body {
 .ticket {
   width: 65%;
   margin-left: -1%;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .ticket_img {
@@ -417,7 +417,7 @@ body {
 }
 
 .footer_heading {
-  margin-top: 6rem;
+  margin-top: 7rem;
   margin-left: 5%;
   /* border: 1px solid rgb(192, 119, 119); */
 }
@@ -449,7 +449,7 @@ body {
   background-color: #d9d9d9;
   max-width: 100%;
   font-size: clamp(0.625rem, 0.125rem + 2.5vw, 1.0625rem);
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 .insta {
   width: 1.3rem;
@@ -593,10 +593,26 @@ body {
     width: clamp(11rem, 5rem + 16vw, 15rem);
   }
 
-  .footer_heading {
-    margin-top: 8rem;
+  
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .badminton_div , .ticket, .microstory_div.dishes, .microstory_div.dishes.collage  {
+    margin-top: 3rem;
   }
-  .footer {
-    margin-top: 7rem;
+  .devider{
+    margin: 5rem auto 5rem auto;
+  }
+  .footer_heading{
+    margin-top: 5rem;
+  }
+  .footer{
+    margin-top: 5rem;
+  }
+  .third_timeline_content_div{
+    margin-top: 1rem;
   }
 }
