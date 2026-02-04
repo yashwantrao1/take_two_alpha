@@ -13,7 +13,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
 
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   color: white;
   font-family: "Kumbh Sans", sans-serif;
   /* font-size: 17px; */
@@ -29,7 +29,8 @@ body {
 }
 
 .weekly_gif_div {
-  width: 100%;
+  width: 75%;
+  margin: 0 auto;
   height: auto;
   /* border: 1px solid red; */
 }
@@ -146,9 +147,9 @@ body {
 }
 
 .secforr_heading.two {
-  margin-top: 1rem;
   font-size: clamp(1.9375rem, 0.3804rem + 7.7857vw, 3.3rem);
   margin-left: 5%;
+  margin-top: 0;
   /* position: relative; */
 }
 
@@ -174,13 +175,13 @@ body {
 
 .devider {
   width: 11rem;
-  margin: 4rem auto 2rem auto;
+  margin: 4rem auto 4rem auto;
   height: 1px;
   border: none;
 
   background-image: linear-gradient(to right, white 50%, transparent 50%);
 
-  background-size: 4px 100%;
+  background-size: 6px 100%;
   /* background-repeat: repeat-x; */
 }
 
@@ -330,21 +331,25 @@ body {
 /* li::marker {
   font-size: 0.3em;
 } */
-
+.listItems {
+  padding-left: 1.5rem;
+}
 .listItems li {
   position: relative;
-  padding-left: 1.3rem;
+  padding-left: 0rem;
+  list-style-type: disc;
 }
 
 .listItems li::before {
-  content: "";
+  /* content: "";
   position: absolute;
   border-radius: 50%;
   height: 0.125rem;
   width: 0.125rem;
   top: 0.5rem;
   left: 0.75rem;
-  background-color: white;
+  background-color: white; */
+
 }
 
 .third_timeline {
@@ -419,6 +424,9 @@ body {
 
 .inline_footer {
   width: fit-content;
+  position: relative;
+  bottom: 6px;
+
   font-size: clamp(0.5625rem, -0.0089rem + 2.8571vw, 1.0625rem);
 }
 
@@ -434,7 +442,7 @@ body {
 .footer_flex {
   display: flex;
   gap: 13px;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .footer {
@@ -511,16 +519,21 @@ body {
     /* content: "";
     position: absolute; */
     left: -2.7rem;
+    bottom: calc(100% - 1rem);
+    background-size: 100% 5px;
   }
 
   .Sensorytitle::after {
     content: "";
     position: absolute;
+    top: 50%;
     left: -2.7rem;
   }
 
   .microstory_title::before {
     content: "";
+    top: 50%;
+
     position: absolute;
     left: -2.7rem;
   }
@@ -528,6 +541,9 @@ body {
     content: "";
     position: absolute;
     left: -2.7rem;
+    background-size: 100% 5px;
+
+    bottom: calc(100% - 1rem);
   }
 
   .textimage_container::after {
@@ -552,6 +568,7 @@ body {
 
   .inline_footer {
     font-size: clamp(1.0625rem, 0.6875rem + 1vw, 1.25rem);
+    bottom: 15px;
   }
 
   .insta {
@@ -561,5 +578,25 @@ body {
     width: 13%;
   }
   .footer {
-font-size: clamp(1.0625rem, 0.4375rem + 1.6667vw, 1.375rem);  }
+    font-size: clamp(1.0625rem, 0.4375rem + 1.6667vw, 1.375rem);
+  }
+
+  .microstory_title {
+    margin-top: 0.5rem;
+  }
+
+  .Sensorytitle {
+    margin-top: 0.5rem;
+  }
+
+  .devider {
+    width: clamp(11rem, 5rem + 16vw, 15rem);
+  }
+
+  .footer_heading {
+    margin-top: 8rem;
+  }
+  .footer {
+    margin-top: 7rem;
+  }
 }
