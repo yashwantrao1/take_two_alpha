@@ -100,7 +100,7 @@ body {
   font-weight: 300;
 }
 
-.creative_agency--from+p {
+.creative_agency--from + p {
   font-weight: 400;
 }
 
@@ -206,14 +206,42 @@ body {
 
 .timeline_content {
   margin-left: 3rem;
-
-  margin-top: 2rem;
-
+  margin-top: 1rem;
   padding-left: 2rem;
-
   overflow: hidden;
-
   /* position: relative; */
+}
+
+.timeline_content__heading--one {
+  font-weight: 500;
+  position: relative;
+  font-weight: 500;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.timeline_content__heading--one::before {
+  content: "";
+
+  position: absolute;
+
+  left: -1.7rem;
+
+  top: 50%;
+
+  width: 0.7rem;
+
+  height: 1px;
+
+  border: none;
+
+  background-image: linear-gradient(to right, white 50%, transparent 50%);
+
+  background-size: 4px 100%;
+}
+
+.timeline_content__standout {
+  font-weight: 500;
 }
 
 /* .devider {
@@ -246,6 +274,32 @@ body {
 
 .timeline.second {
   position: relative;
+}
+
+.timeline_content_second_heading {
+  font-weight: 500;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.timeline_content_second_heading::before {
+  content: "";
+
+  position: absolute;
+
+  left: -1.7rem;
+
+  top: 50%;
+
+  width: 0.7rem;
+
+  height: 1px;
+
+  border: none;
+
+  background-image: linear-gradient(to right, white 50%, transparent 50%);
+
+  background-size: 4px 100%;
 }
 
 .badminton_div {
@@ -709,7 +763,7 @@ body {
 
     background-size: 100% 5px;
 
-    bottom: calc(100% - 0.89rem);
+    bottom: calc(100% - 0.95rem);
   }
 
   .textimage_container::after {
@@ -761,10 +815,30 @@ body {
   .devider {
     width: clamp(11rem, 5rem + 16vw, 15rem);
   }
+
+  .timeline_content__heading--one::before,
+  .timeline_content_second_heading::before {
+    content: "";
+
+    position: absolute;
+
+    left: -2.7rem;
+
+    top: 50%;
+
+    width: 0.7rem;
+
+    height: 1px;
+
+    border: none;
+
+    background-image: linear-gradient(to right, white 50%, transparent 50%);
+
+    background-size: 4px 100%;
+  }
 }
 
 @media (max-width: 1024px) {
-
   .badminton_div,
   .ticket,
   .microstory_div.dishes,
